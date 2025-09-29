@@ -19,27 +19,50 @@
         "settings": {
           "title": "Featured Products",
           "heading_size": "h2",
-          "description": "",
-          "show_description": false,
-          "description_style": "body",
           "collection": "",
           "products_to_show": 8,
           "columns_desktop": 4,
-          "full_width": false,
           "show_view_all": true,
-          "view_all_style": "solid",
-          "enable_desktop_slider": false,
-          "color_scheme": "background-1",
-          "image_ratio": "adapt",
-          "show_secondary_image": false,
-          "show_vendor": false,
-          "show_rating": false,
-          "columns_mobile": "2",
-          "swipe_on_mobile": false,
-          "padding_top": 36,
-          "padding_bottom": 36
+          "color_scheme": "background-1"
         }
       }
     },
     "order": ["image_banner", "featured_collection"]
+  }
+
+  2. 他のテンプレートも既存セクションに修正
+
+  templates/collection.json:
+  {
+    "sections": {
+      "banner": {
+        "type": "collection-banner"
+      },
+      "product-grid": {
+        "type": "main-collection-product-grid"
+      }
+    },
+    "order": ["banner", "product-grid"]
+  }
+
+  templates/product.json:
+  {
+    "sections": {
+      "main": {
+        "type": "main-product"
+      }
+    },
+    "order": ["main"]
+  }
+
+  3. ページテンプレートを修正
+
+  templates/page.about.json:
+  {
+    "sections": {
+      "main": {
+        "type": "main-page"
+      }
+    },
+    "order": ["main"]
   }
