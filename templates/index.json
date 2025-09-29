@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-split",
+      "settings": {
+        "heading": "Premium Ergonomic Solutions",
+        "subheading": "Transform your workspace with our award-winning keyboards and accessories designed for ultimate comfort and productivity.",
+        "primary_label": "Shop Now",
+        "primary_link": "/collections/all",
+        "secondary_label": "Learn More",
+        "secondary_link": "/pages/about"
+      }
+    },
+    "products": {
+      "type": "product-carousel-min",
+      "settings": {
+        "heading": "Featured Products",
+        "collection": ""
+      }
+    },
+    "callout": {
+      "type": "media-callout",
+      "settings": {
+        "heading": "Designed for Performance",
+        "body": "Every ERGOGAIN product is meticulously crafted to enhance your workflow while reducing strain and fatigue."
+      }
+    },
+    "press": {
+      "type": "press-logos",
+      "settings": {
+        "heading": "Featured In"
+      }
+    },
+    "newsletter": {
+      "type": "newsletter-compact"
+    }
+  },
+  "order": ["hero", "products", "callout", "press", "newsletter"]
+}

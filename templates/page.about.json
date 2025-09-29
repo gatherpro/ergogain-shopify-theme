@@ -1,0 +1,39 @@
+{
+  "sections": {
+    "hero": {
+      "type": "media-callout",
+      "settings": {
+        "heading": "About ERGOGAIN",
+        "body": "We believe that great design should enhance both performance and well-being. Founded with a mission to transform workspaces through ergonomic excellence, we create products that adapt to you, not the other way around."
+      }
+    },
+    "story": {
+      "type": "feature-rows",
+      "blocks": {
+        "mission": {
+          "type": "feature",
+          "settings": {
+            "title": "Our Mission",
+            "text": "To create ergonomic solutions that empower professionals to work comfortably and efficiently, reducing strain while maximizing productivity."
+          }
+        },
+        "vision": {
+          "type": "feature",
+          "settings": {
+            "title": "Our Vision",
+            "text": "A world where every workspace is optimized for human comfort and performance, where technology serves to enhance rather than hinder our natural capabilities."
+          }
+        },
+        "values": {
+          "type": "feature",
+          "settings": {
+            "title": "Our Values",
+            "text": "Innovation through research, uncompromising quality, sustainable practices, and a relentless focus on user experience drive everything we do."
+          }
+        }
+      },
+      "block_order": ["mission", "vision", "values"]
+    }
+  },
+  "order": ["hero", "story"]
+}

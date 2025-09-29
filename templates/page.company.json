@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "hero": {
+      "type": "media-callout",
+      "settings": {
+        "heading": "Company",
+        "body": "Learn more about ERGOGAIN, our team, and our commitment to ergonomic excellence."
+      }
+    },
+    "company-nav": {
+      "type": "feature-rows",
+      "blocks": {
+        "about": {
+          "type": "feature",
+          "settings": {
+            "title": "About Us",
+            "text": "Discover our story, mission, and the values that drive our commitment to ergonomic innovation."
+          }
+        },
+        "team": {
+          "type": "feature",
+          "settings": {
+            "title": "Our Team",
+            "text": "Meet the passionate individuals behind ERGOGAIN's award-winning products and customer experience."
+          }
+        },
+        "press": {
+          "type": "feature",
+          "settings": {
+            "title": "Press & Media",
+            "text": "Access press releases, media kits, and the latest news about ERGOGAIN in the media."
+          }
+        },
+        "contact": {
+          "type": "feature",
+          "settings": {
+            "title": "Contact Us",
+            "text": "Get in touch with our team for inquiries, partnerships, or general information."
+          }
+        }
+      },
+      "block_order": ["about", "team", "press", "contact"]
+    }
+  },
+  "order": ["hero", "company-nav"]
+}

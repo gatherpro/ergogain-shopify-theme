@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "hero": {
+      "type": "media-callout",
+      "settings": {
+        "heading": "Support",
+        "body": "Get help with your ERGOGAIN products, find setup guides, troubleshooting tips, and warranty information."
+      }
+    },
+    "support-topics": {
+      "type": "feature-rows",
+      "blocks": {
+        "setup": {
+          "type": "feature",
+          "settings": {
+            "title": "Setup Guides",
+            "text": "Step-by-step instructions for setting up your ERGOGAIN products for optimal comfort and performance."
+          }
+        },
+        "troubleshooting": {
+          "type": "feature",
+          "settings": {
+            "title": "Troubleshooting",
+            "text": "Common issues and solutions to help you get the most out of your ergonomic workspace."
+          }
+        },
+        "warranty": {
+          "type": "feature",
+          "settings": {
+            "title": "Warranty Information",
+            "text": "Learn about our comprehensive warranty coverage and how to submit a warranty claim."
+          }
+        },
+        "contact": {
+          "type": "feature",
+          "settings": {
+            "title": "Contact Support",
+            "text": "Can't find what you're looking for? Our support team is here to help with any questions or concerns."
+          }
+        }
+      },
+      "block_order": ["setup", "troubleshooting", "warranty", "contact"]
+    }
+  },
+  "order": ["hero", "support-topics"]
+}
