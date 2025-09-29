@@ -1,39 +1,45 @@
 {
-  "sections": {
-    "hero": {
-      "type": "hero-split",
-      "settings": {
-        "heading": "Premium Ergonomic Solutions",
-        "subheading": "Transform your workspace with our award-winning keyboards and accessories designed for ultimate comfort and productivity.",
-        "primary_label": "Shop Now",
-        "primary_link": "/collections/all",
-        "secondary_label": "Learn More",
-        "secondary_link": "/pages/about"
+    "sections": {
+      "image_banner": {
+        "type": "image-banner",
+        "settings": {
+          "image_height": "large",
+          "desktop_content_position": "middle-left",
+          "show_text_box": true,
+          "desktop_content_alignment": "left",
+          "color_scheme": "background-1",
+          "image_behavior": "none",
+          "mobile_content_alignment": "left",
+          "stack_images_on_mobile": true,
+          "show_text_below": true
+        }
+      },
+      "featured_collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Featured Products",
+          "heading_size": "h2",
+          "description": "",
+          "show_description": false,
+          "description_style": "body",
+          "collection": "",
+          "products_to_show": 8,
+          "columns_desktop": 4,
+          "full_width": false,
+          "show_view_all": true,
+          "view_all_style": "solid",
+          "enable_desktop_slider": false,
+          "color_scheme": "background-1",
+          "image_ratio": "adapt",
+          "show_secondary_image": false,
+          "show_vendor": false,
+          "show_rating": false,
+          "columns_mobile": "2",
+          "swipe_on_mobile": false,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
-    "products": {
-      "type": "product-carousel-min",
-      "settings": {
-        "heading": "Featured Products",
-        "collection": ""
-      }
-    },
-    "callout": {
-      "type": "media-callout",
-      "settings": {
-        "heading": "Designed for Performance",
-        "body": "Every ERGOGAIN product is meticulously crafted to enhance your workflow while reducing strain and fatigue."
-      }
-    },
-    "press": {
-      "type": "press-logos",
-      "settings": {
-        "heading": "Featured In"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter-compact"
-    }
-  },
-  "order": ["hero", "products", "callout", "press", "newsletter"]
-}
+    "order": ["image_banner", "featured_collection"]
+  }
