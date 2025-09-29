@@ -1,4 +1,4 @@
-{
+ {
     "sections": {
       "image_banner": {
         "type": "image-banner",
@@ -28,41 +28,4 @@
       }
     },
     "order": ["image_banner", "featured_collection"]
-  }
-
-  2. 他のテンプレートも既存セクションに修正
-
-  templates/collection.json:
-  {
-    "sections": {
-      "banner": {
-        "type": "collection-banner"
-      },
-      "product-grid": {
-        "type": "main-collection-product-grid"
-      }
-    },
-    "order": ["banner", "product-grid"]
-  }
-
-  templates/product.json:
-  {
-    "sections": {
-      "main": {
-        "type": "main-product"
-      }
-    },
-    "order": ["main"]
-  }
-
-  3. ページテンプレートを修正
-
-  templates/page.about.json:
-  {
-    "sections": {
-      "main": {
-        "type": "main-page"
-      }
-    },
-    "order": ["main"]
   }
